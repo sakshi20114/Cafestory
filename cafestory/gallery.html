@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Gallery | CafeStory — Premium Café in Surat</title>
+<meta name="description" content="A visual look inside CafeStory — our interiors, coffee, kitchen and guests, in Surat." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E☕%3C/text%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- Coffee-cup splash loader, shown while the page opens -->
+<div class="site-loader" aria-hidden="true">
+  <div class="site-loader__inner">
+    <div class="site-loader__beans">
+      <span class="loader-bean"></span><span class="loader-bean"></span><span class="loader-bean"></span>
+      <span class="loader-bean"></span><span class="loader-bean"></span>
+    </div>
+    <svg class="site-loader__cup" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path class="steam" d="M24 6c0 4-4 4-4 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+      <path class="steam" d="M32 6c0 4-4 4-4 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+      <path class="steam" d="M40 6c0 4-4 4-4 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+      <path d="M12 24h34v14c0 9-8 16-17 16s-17-7-17-16V24z" stroke="currentColor" stroke-width="2.5"/>
+      <path d="M46 28h4a5 5 0 0 1 0 10h-4" stroke="currentColor" stroke-width="2.5"/>
+      <path d="M9 54h32" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+    </svg>
+    <p class="site-loader__text">CafeStory<span>.</span></p>
+    <div class="site-loader__bar"></div>
+  </div>
+</div>
+
+<div class="roast-progress"><div class="roast-progress__bar"></div></div>
+
+<header class="site-header">
+  <div class="nav-inner container">
+    <a href="index.html" class="brand">CafeStory<span>.</span></a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a href="contact.html#reserve" class="btn btn-outline nav-cta"><span>Reserve a Table</span></a>
+    <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-menu">
+  <a href="index.html">Home</a>
+  <a href="menu.html">Menu</a>
+  <a href="about.html">About</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact</a>
+  <a href="contact.html#reserve" class="btn btn-solid"><span>Reserve a Table</span></a>
+</div>
+
+<main>
+  <section class="section-dark gallery-hero">
+    <div class="container" data-reveal>
+      <p class="eyebrow">In Frame</p>
+      <h1>A look inside<br />the room.</h1>
+      <p>Interiors, cups, plates and the people who make them — a small window into daily life at CafeStory.</p>
+
+      <div class="gallery-filters" role="tablist" aria-label="Gallery categories">
+        <button class="tab-btn is-active" data-target="all">All</button>
+        <button class="tab-btn" data-target="interior">Interior</button>
+        <button class="tab-btn" data-target="coffee">Coffee</button>
+        <button class="tab-btn" data-target="food">Food</button>
+        <button class="tab-btn" data-target="people">People</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-dark gallery-grid-section">
+    <div class="container">
+      <div class="gallery-grid">
+
+        <div class="gallery-item" data-category="interior" data-caption="CafeStory's main dining room, window seating">
+          <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=700&auto=format&fit=crop" alt="CafeStory dining room" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="coffee" data-caption="Latte art being poured at the espresso bar">
+          <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?q=80&w=700&auto=format&fit=crop" alt="Latte art pour" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="food" data-caption="Wood-fired truffle mushroom pizza fresh from the oven">
+          <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=700&auto=format&fit=crop" alt="Truffle mushroom pizza" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="people" data-caption="Our head barista pulling a morning shot">
+          <img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?q=80&w=700&auto=format&fit=crop" alt="Barista pulling espresso shot" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="coffee" data-caption="Single origin beans, roasted in small batches">
+          <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?q=80&w=700&auto=format&fit=crop" alt="Roasted coffee beans" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="interior" data-caption="Morning light across the roasting bench">
+          <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?q=80&w=700&auto=format&fit=crop" alt="Roasting bench in morning light" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="food" data-caption="Burnt basque cheesecake, our most requested dessert">
+          <img src="https://images.unsplash.com/photo-1517244683847-7456b63c5969?q=80&w=700&auto=format&fit=crop" alt="Burnt basque cheesecake" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="food" data-caption="Fresh hand-rolled tagliatelle with black truffle">
+          <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=700&auto=format&fit=crop" alt="Truffle tagliatelle" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="people" data-caption="Guests enjoying a slow Sunday morning">
+          <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?q=80&w=700&auto=format&fit=crop" alt="Guests seated at CafeStory" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="interior" data-caption="Evening ambience along the wood-panelled wall">
+          <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=700&auto=format&fit=crop" alt="Evening ambience at CafeStory" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="coffee" data-caption="Rose cardamom latte, a guest favourite">
+          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=700&auto=format&fit=crop" alt="Rose cardamom latte" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="people" data-caption="Our pastry team plating dessert for service">
+          <img src="https://images.unsplash.com/photo-1524350876685-274059332603?q=80&w=700&auto=format&fit=crop" alt="Pastry team plating dessert" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-light cta-band">
+    <div class="container" data-reveal>
+      <p class="eyebrow eyebrow--center">Seen Enough?</p>
+      <h2>Come experience it<br />in person.</h2>
+      <a href="contact.html#reserve" class="btn btn-solid"><span>Reserve a Table</span></a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">CafeStory<span>.</span></a>
+        <p>A single-origin coffee house and wood-fired kitchen in the heart of Surat. Slow mornings welcome.</p>
+        <div class="footer-social">
+          <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+          <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">FB</a>
+          <a href="https://wa.me/919876543210" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>
+        </div>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <ul>
+          <li>Mon – Fri: 8am – 11pm</li>
+          <li>Sat – Sun: 8am – 12am</li>
+          <li>Kitchen closes 30 min prior</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li>Rander Road, Surat, Gujarat 395005</li>
+          <li><a href="tel:+919876543210">+91 98765 43210</a></li>
+          <li><a href="mailto:hello@cafestory.in">hello@cafestory.in</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span class="js-year"></span> CafeStory. All rights reserved.</span>
+      <span>Crafted with care in Surat.</span>
+    </div>
+  </div>
+</footer>
+
+<a class="whatsapp-fab" href="https://wa.me/919876543210?text=Hi%20CafeStory%2C%20I%27d%20like%20to%20know%20more." target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">
+  <span class="ping"></span>
+  <svg viewBox="0 0 32 32" fill="#fff"><path d="M16.001 3C9.373 3 4 8.373 4 15c0 2.393.7 4.623 1.908 6.497L4 29l7.72-1.867A11.93 11.93 0 0 0 16.001 27C22.628 27 28 21.627 28 15S22.628 3 16.001 3zm0 21.75c-1.99 0-3.85-.55-5.44-1.51l-.39-.23-4.59 1.11 1.13-4.48-.25-.4A9.7 9.7 0 0 1 5.25 15c0-5.93 4.82-10.75 10.75-10.75S26.75 9.07 26.75 15 21.93 24.75 16 24.75zm5.87-8.06c-.32-.16-1.9-.94-2.2-1.05-.3-.11-.51-.16-.73.16-.21.32-.83 1.05-1.02 1.26-.19.21-.38.24-.7.08-.32-.16-1.35-.5-2.57-1.6-.95-.85-1.59-1.9-1.78-2.22-.19-.32-.02-.49.14-.65.14-.14.32-.38.48-.56.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.73-1.76-1-2.41-.26-.63-.53-.54-.73-.55h-.62c-.21 0-.56.08-.85.4-.29.32-1.12 1.1-1.12 2.68 0 1.58 1.15 3.11 1.31 3.32.16.21 2.26 3.45 5.48 4.84.77.33 1.36.53 1.83.68.77.24 1.47.21 2.02.13.62-.09 1.9-.78 2.17-1.53.27-.75.27-1.4.19-1.53-.08-.13-.29-.21-.61-.37z"/></svg>
+</a>
+
+<!-- Lightbox -->
+<div class="lightbox">
+  <div class="lightbox__inner">
+    <button class="lightbox__close" aria-label="Close">✕</button>
+    <button class="lightbox__nav prev" aria-label="Previous image">←</button>
+    <img src="" alt="" />
+    <button class="lightbox__nav next" aria-label="Next image">→</button>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
